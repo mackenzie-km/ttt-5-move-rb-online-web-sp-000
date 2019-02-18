@@ -9,13 +9,11 @@ end
 index = 0
 
 def input_to_index(user_input = 0)
-  user_input = gets.strip
   index = (user_input.to_i - 1)
 end
 
 def move(board, user_input, character = "X")
   position = input_to_index(user_input)
-  character = gets.strip
   if character == "X"
     board[position] = "x"
   else character == "O"
