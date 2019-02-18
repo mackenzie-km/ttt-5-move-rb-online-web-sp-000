@@ -16,6 +16,6 @@ def move(board, index, character = "X")
   if character == "X"
     board[index] = "X"
   else character == "O"
-    board[index]] = "O"
+    board[index] = "O"
 end
 end
