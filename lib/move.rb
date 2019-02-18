@@ -12,11 +12,10 @@ def input_to_index(user_input = 0)
   index = (user_input.to_i - 1)
 end
 
-def move(board, user_input, character = "X")
-  position = input_to_index(user_input)
+def move(board, index, character = "X")
   if character == "X"
-    board[position] = "X"
+    board[index] = "X"
   else character == "O"
-    board[position] = "O"
+    board[index]] = "O"
 end
 end
