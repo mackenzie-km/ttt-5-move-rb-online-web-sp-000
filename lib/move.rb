@@ -12,7 +12,7 @@ def input_to_index(user_input)
   index = (user_input.to_i - 1)
 end
 
-def move(board, position, character)
+def move(board, position, character = "X")
   position = input_to_index
   character = gets.strip
   if character == "x"
