@@ -13,6 +13,5 @@ user_input = user_input.to_i
 index = input_to_index(user_input)
 
 puts "Please choose X or O."
-character = gets.strip
 
 move(board, index, character = "X")
