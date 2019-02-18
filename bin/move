@@ -6,6 +6,8 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 puts "Welcome to Tic Tac Toe!"
 
+display_board(board)
+
 puts "Please choose a #1-9 to choose a spot."
 user_input = gets.strip
 user_input = user_input.to_i
