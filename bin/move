@@ -8,6 +8,7 @@ puts "Welcome to Tic Tac Toe!"
 
 puts "Please choose a #1-9 to choose a spot."
 user_input = gets.strip
+user_input = user_input.to_i
 
 puts "Please choose X or O."
 character = gets.strip
