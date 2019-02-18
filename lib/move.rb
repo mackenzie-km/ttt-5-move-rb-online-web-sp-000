@@ -8,8 +8,8 @@ end
 
 index = 0
 
-def input_to_index
-  input = gets.strip
+def input_to_index(user_input)
+  user_input = gets.strip
   index = (input - 1)
 end
 
