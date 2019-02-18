@@ -24,3 +24,4 @@ def move(board, position, character)
     puts "Invalid! Choose X or O."
      x_or_o = gets.strip
 end
+end
