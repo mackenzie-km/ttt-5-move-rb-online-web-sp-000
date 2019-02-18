@@ -13,7 +13,7 @@ def input_to_index
   index = (input - 1)
 end
 
-def move(index)
+def move(board, index)
   x_or_o = gets.strip
   if x_or_o == "x"
     board[index] = "x"
