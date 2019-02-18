@@ -17,3 +17,5 @@ index = input_to_index(user_input)
 puts "Please choose X or O."
 
 move(board, index, character = "X")
+
+display_board(board)
