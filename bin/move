@@ -3,10 +3,14 @@
 require_relative '../lib/move.rb'
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
 puts "Welcome to Tic Tac Toe!"
+
 puts "Please choose a #1-9 to choose a spot."
 user_input = gets.strip
+
 puts "Please choose X or O."
 character = gets.strip
+
 input_to_index(user_input)
 move(board, user_input, character)
