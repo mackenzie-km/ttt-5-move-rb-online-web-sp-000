@@ -15,8 +15,8 @@ end
 def move(board, user_input, character = "X")
   position = input_to_index(user_input)
   if character == "X"
-    board[position] = "x"
+    board[position] = "X"
   else character == "O"
-    board[position] = "o"
+    board[position] = "O"
 end
 end
