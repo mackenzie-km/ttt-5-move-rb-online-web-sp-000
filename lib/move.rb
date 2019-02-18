@@ -15,9 +15,9 @@ end
 def move(board, position, character = "X")
   position = input_to_index
   character = gets.strip
-  if character == "x"
+  if character == "X"
     board[position] = "x"
-  elsif character == "o"
+  elsif character == "O"
     board[position] = "o"
   else 
     puts "Invalid! Choose X or O."
