@@ -10,7 +10,7 @@ puts "Please choose a #1-9 to choose a spot."
 user_input = gets.strip
 user_input = user_input.to_i
 
-position = input_to_index(position)
+index = input_to_index(user_input)
 
 puts "Please choose X or O."
 character = gets.strip
