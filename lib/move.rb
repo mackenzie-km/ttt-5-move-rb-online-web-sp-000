@@ -15,13 +15,13 @@ end
 
 def move(board, position, character)
   position = input_to_index
-  x_or_o = gets.strip
-  if x_or_o == "x"
+  character = gets.strip
+  if character == "x"
     board[position] = "x"
-  elsif x_or_o == "o"
+  elsif character == "o"
     board[position] = "o"
   else 
     puts "Invalid! Choose X or O."
-     x_or_o = gets.strip
+     character = gets.strip
 end
 end
